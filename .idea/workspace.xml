@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08aefdd2-2f71-468d-ba81-7290f68e0f0e" name="Changes" comment="terminar">
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/SelectorDeslizamiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/selectordeslizamiento.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/selectordeslizamiento.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,6 +55,19 @@
       <recent name="es.ieslosmontecillos.componentes_gonzalezadrian" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,6 +87,7 @@
       <workItem from="1701770469641" duration="6386000" />
       <workItem from="1702284375371" duration="137000" />
       <workItem from="1702284597388" duration="11782000" />
+      <workItem from="1702313414808" duration="4659000" />
     </task>
     <task id="LOCAL-00001" summary="terminar">
       <option name="closed" value="true" />
