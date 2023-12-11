@@ -10,16 +10,19 @@ import java.io.IOException;
 
 public class Main extends Application {
 
+    @javafx.fxml.FXML
+    private CampoTextoNumerico ctnum;
+
     public void start(Stage stage) throws IOException {
 
       FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("main.fxml"));
 
-        CampoTextoBoton campotextoboton = new CampoTextoBoton();
+        CampoTextoNumerico campotextonumerico = new CampoTextoNumerico();
 
-        stage.setScene(new Scene(campotextoboton));
-        stage.setTitle("Custom Control");
-        stage.setWidth(300);
-        stage.setHeight(200);
+        stage.setScene(new Scene(campotextonumerico));
+        stage.setTitle("Uso campo numerico");
+        stage.setWidth(400);
+        stage.setHeight(600);
         stage.show();
     }
     public static void main(String[] args){launch(args);}

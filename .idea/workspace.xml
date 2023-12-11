@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08aefdd2-2f71-468d-ba81-7290f68e0f0e" name="Changes" comment="terminar">
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/selectordeslizamiento.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/CampoTextoBoton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/CampoTextoBoton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/CampoTextoNumerico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/CampoTextoNumerico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/campotextoboton.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/campotextoboton.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/campotextonumerico.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/campotextonumerico.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/main.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -74,7 +76,7 @@
       <workItem from="1701770441709" duration="21000" />
       <workItem from="1701770469641" duration="6386000" />
       <workItem from="1702284375371" duration="137000" />
-      <workItem from="1702284597388" duration="3800000" />
+      <workItem from="1702284597388" duration="9959000" />
     </task>
     <task id="LOCAL-00001" summary="terminar">
       <option name="closed" value="true" />
@@ -84,7 +86,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701777714130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="terminar">
+      <option name="closed" value="true" />
+      <created>1702290381059</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702290381059</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
