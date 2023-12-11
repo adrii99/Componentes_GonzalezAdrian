@@ -12,7 +12,7 @@ public class Main extends Application {
 
     public void start(Stage stage) throws IOException {
 
-      FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource(""))
+      FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("main.fxml"));
 
         CampoTextoBoton campotextoboton = new CampoTextoBoton();
 
@@ -22,4 +22,5 @@ public class Main extends Application {
         stage.setHeight(200);
         stage.show();
     }
+    public static void main(String[] args){launch(args);}
 }

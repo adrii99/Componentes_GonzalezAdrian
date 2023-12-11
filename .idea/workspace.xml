@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08aefdd2-2f71-468d-ba81-7290f68e0f0e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/CampoTextoBoton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/CampoTextoNumerico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/campotextoboton.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/campotextonumerico.fxml" afterDir="false" />
+    <list default="true" id="08aefdd2-2f71-468d-ba81-7290f68e0f0e" name="Changes" comment="terminar">
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/CampoTextoBoton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/CampoTextoBoton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/campotextoboton.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/campotextoboton.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +72,26 @@
       <workItem from="1701172348471" duration="517000" />
       <workItem from="1701769891728" duration="9000" />
       <workItem from="1701770441709" duration="21000" />
-      <workItem from="1701770469641" duration="5986000" />
+      <workItem from="1701770469641" duration="6386000" />
+      <workItem from="1702284375371" duration="137000" />
+      <workItem from="1702284597388" duration="3800000" />
     </task>
+    <task id="LOCAL-00001" summary="terminar">
+      <option name="closed" value="true" />
+      <created>1701777714130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701777714130</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="terminar" />
+    <option name="LAST_COMMIT_MESSAGE" value="terminar" />
   </component>
 </project>
