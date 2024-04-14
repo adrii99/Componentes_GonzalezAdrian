@@ -4,7 +4,8 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.HBox?>
 
-<fx:root alignment="CENTER" spacing="20.0" type="javafx.scene.layout.HBox" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21">
+<fx:root alignment="CENTER" spacing="20.0" type="javafx.scene.layout.HBox"
+         xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21">
   <children>
       <TextField fx:id="tfControl" />
       <Button fx:id="btControl" text="Grabar" />

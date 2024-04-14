@@ -1,35 +1,31 @@
 package es.ieslosmontecillos.componentes_gonzalezadrian;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.ObjectPropertyBase;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
-import javafx.event.EventType;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-
-import java.io.IOException;
-import java.util.ArrayList;
+import javafx.scene.layout.AnchorPane;
 
 
-public class SelectorDeslizamiento {
+public class SelectorDeslizamiento extends AnchorPane {
 
     @FXML
-    private Button anterior;
+    private Button previousButton;
     @FXML
     private Label label;
     @FXML
-    private Button siguiente;
-
+    private Button nextButton;
     ArrayList<String> items;
     int selectedIndex;
     private boolean repetitive;
 
-    public SelectorDeslizamiento()
-    {
-
+    public SelectorDeslizamiento() {
         FXMLLoader fxmlLoader = new FXMLLoader(
                 getClass().getResource("selectordeslizamiento.fxml"));
         fxmlLoader.setRoot(this);
@@ -39,6 +35,16 @@ public class SelectorDeslizamiento {
         } catch (IOException exception) {
             throw new RuntimeException(exception);
         }
+        items = new ArrayList<>();
+        selectedIndex = 0;
+        previousButton.setOnAction((ActionEvent event) -> {
+            setPrevious();
+            fireEvent(event);
+        });
+        nextButton.setOnAction((ActionEvent event) -> {
+            setNext();
+            fireEvent(event);
+        });
 
     }
 
@@ -46,18 +52,23 @@ public class SelectorDeslizamiento {
         this.items = items;
         selectFirst();
     }
+
     public void setPrevious() {
         updateItem(selectedIndex - 1);
     }
+
     public void setNext() {
         updateItem(selectedIndex + 1);
     }
+
     public void selectFirst() {
         updateItem(0);
     }
+
     private void selectLast() {
         updateItem(items.size() - 1);
     }
+
     private void updateItem() {
         if (items.isEmpty()) {
             label.setText("Vacio");
@@ -79,6 +90,7 @@ public class SelectorDeslizamiento {
             label.setText(items.get(selectedIndex));
         }
     }
+
     private void updateItem(int selectedIndex) {
         this.selectedIndex = selectedIndex;
         updateItem();
@@ -87,35 +99,32 @@ public class SelectorDeslizamiento {
     public void setRepetitive(boolean cyclesThrough) {
         this.repetitive = cyclesThrough;
     }
+
     public final ObjectProperty<EventHandler<ActionEvent>> onActionProperty() {
         return onAction;
     }
+
     public final void setOnAction(EventHandler<ActionEvent> value) {
         onActionProperty().set(value);
     }
+
     public final EventHandler<ActionEvent> getOnAction() {
         return onActionProperty().get();
     }
-    private ObjectProperty<EventHandler<ActionEvent>> onAction = new
-            ObjectPropertyBase<EventHandler<ActionEvent>>() {
-                @Override
-                protected void invalidated() {
-                    setEventHandler(ActionEvent.ACTION, get());
-                }
+    private ObjectProperty<EventHandler<ActionEvent>> onAction = new ObjectPropertyBase<EventHandler<ActionEvent>>() {
+        @Override
+        protected void invalidated() {
+            setEventHandler(ActionEvent.ACTION, get());
+        }
 
-                private void setEventHandler(EventType<ActionEvent> action, EventHandler<ActionEvent> actionEventEventHandler) {
+        @Override
+        public Object getBean() {
+            return SelectorDeslizamiento.this;
+        }
 
-                }
-
-                @Override
-                public Object getBean() {
-                    return SelectorDeslizamiento.this;
-                }
-                @Override
-                public String getName() {
-                    return "onAction";
-                }
-            };
+        @Override
+        public String getName() {
+            return "onAction";
+        }
+    };
 }
-
-
