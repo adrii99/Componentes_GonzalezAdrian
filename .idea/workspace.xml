@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08aefdd2-2f71-468d-ba81-7290f68e0f0e" name="Changes" comment="terminar">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/CampoTextoBotonEjemplo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/SelectorDeslizamientoEjemplo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/CampoTextoNumerico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/CampoTextoNumerico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/CampoTextoNumericoEjemplo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/SelectorDeslizamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/SelectorDeslizamiento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/campotextoboton.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/campotextoboton.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/main.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/selectordeslizamiento.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/selectordeslizamiento.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -60,22 +51,6 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="es.ieslosmontecillos.componentes_gonzalezadrian" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="es.ieslosmontecillos.componentes_gonzalezadrian" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,10 +71,7 @@
       <workItem from="1701770469641" duration="6386000" />
       <workItem from="1702284375371" duration="137000" />
       <workItem from="1702284597388" duration="11782000" />
-      <workItem from="1702313414808" duration="5298000" />
-      <workItem from="1702503396525" duration="5000" />
-      <workItem from="1708013873559" duration="667000" />
-      <workItem from="1713097066360" duration="3921000" />
+      <workItem from="1713167116554" duration="1231000" />
     </task>
     <task id="LOCAL-00001" summary="terminar">
       <option name="closed" value="true" />
@@ -133,15 +105,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702300762949</updated>
     </task>
-    <task id="LOCAL-00005" summary="terminar">
-      <option name="closed" value="true" />
-      <created>1702325684813</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1702325684814</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
