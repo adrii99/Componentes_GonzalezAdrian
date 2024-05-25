@@ -19,6 +19,14 @@ import javafx.util.Duration;
 
 import java.io.IOException;
 
+/**
+ * La clase Temporizador extiende de VBox y proporciona la funcionalidad de un temporizador
+ * que puede ser configurado y visualizado utilizando un archivo FXML.
+ *
+ * @author Adrián González García
+ * @version 1.0
+ * @since 23-05-2024
+ */
 public class Temporizador extends VBox {
 
     private IntegerProperty tiempo = new SimpleIntegerProperty();
@@ -30,6 +38,14 @@ public class Temporizador extends VBox {
     private Label lbl;
     private final Timeline timeline = new Timeline();
 
+    /**
+     * Constructor vacio de la clase Temporizador.
+     * Carga el archivo FXML y configura el temporizador para actualizar la etiqueta lbl
+     * con el tiempo restante.
+     * Añade un listener a la propiedad de tiempo para actualizar la etiqueta
+     * con cada cambio en el valor del tiempo.
+     * @throws RuntimeException si hay un error al cargar el archivo FXML.
+     */
     public Temporizador()
     {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("temporizador.fxml"));
@@ -53,24 +69,58 @@ public class Temporizador extends VBox {
        });
     }
 
+    /**
+     * Obtiene el tiempo restante del temporizador.
+     *
+     * @return el tiempo restante de tipo Integer.
+     */
     public Integer getTiempo(){return  tiempo.get();}
 
+    /**
+     * Establece el tiempo del temporizador.
+     *
+     * @param t el tiempo a establecer de tipo Integer.
+     */
     public void setTiempo(Integer t){tiempo.set(t);}
 
+    /**
+     * Obtiene la propiedad del tiempo del temporizador.
+     *
+     * @return la propiedad del tiempo de tipo IntegerProperty.
+     */
     public IntegerProperty tiempoProperty(){return tiempo;}
 
-
+    /**
+     * Establece el manejador de eventos que se ejecutará al terminar el temporizador.
+     *
+     * @param handler el manejador de eventos a establecer.
+     */
     public void setAlTerminar(EventHandler<ActionEvent> handler) {
         alTerminar.set(handler);
     }
 
+    /**
+     * Obtiene el manejador de eventos que se ejecutará al terminar el temporizador.
+     *
+     * @return EventHandler<ActionEvent> el manejador de eventos.
+     */
     public  EventHandler<ActionEvent> getAlTerminar() {
         return alTerminar.get();
     }
 
+    /**
+     * Obtiene la propiedad del manejador de eventos al terminar el temporizador.
+     *
+     * @return ObjectProperty<EventHandler<ActionEvent>> la propiedad del manejador de eventos.
+     */
     public  ObjectProperty<EventHandler<ActionEvent>> alTerminarProperty() {
         return alTerminar;
     }
+
+    /**
+     * Inicia el temporizador y actualiza la etiqueta con el tiempo restante.
+     * Al finalizar el tiempo, ejecuta el manejador de eventos configurado.
+     */
 
     public void iniciarTemporizador()
     {
