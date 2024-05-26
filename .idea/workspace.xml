@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08aefdd2-2f71-468d-ba81-7290f68e0f0e" name="Changes" comment="terminar">
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/TemporizadorEjemplo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/Temporizador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ieslosmontecillos/componentes_gonzalezadrian/Temporizador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/selectordeslizamiento.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/selectordeslizamiento.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/temporizador.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/ieslosmontecillos/componentes_gonzalezadrian/temporizador.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="08aefdd2-2f71-468d-ba81-7290f68e0f0e" name="Changes" comment="Añadido javaDoc a la clase Temporizador" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +130,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702325684814</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Añadido javaDoc a la clase Temporizador">
+      <option name="closed" value="true" />
+      <created>1716637993162</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716637993162</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Añadido javaDoc a la clase Temporizador">
+      <option name="closed" value="true" />
+      <created>1716638027430</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716638027430</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="terminar" />
-    <option name="LAST_COMMIT_MESSAGE" value="terminar" />
+    <MESSAGE value="Añadido javaDoc a la clase Temporizador" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadido javaDoc a la clase Temporizador" />
   </component>
 </project>
